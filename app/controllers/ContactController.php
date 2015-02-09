@@ -10,7 +10,7 @@ class ContactController extends BaseController {
 
 		//Validation rules
 		$rules = array (
-			'name' => 'required|required',
+			'name' => 'required',
 			'email' => 'required|email',
 			'message' => 'required'
 		);
