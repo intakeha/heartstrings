@@ -853,6 +853,11 @@ a.playlist_expander{
 .navbar-brand{
 	float:none;
 }
+
+.navbar-brand img{
+	height: 50px;
+}
+
 .navbar-nav{
 	margin-top:1px;
 	float:right;
@@ -2416,6 +2421,14 @@ a.playlist_expander{
 	right:0;
 	margin-right:0;
 	top:0;
+}
+.navbar-brand img{
+	height: 30px;
+	margin-top: -5px;
+}
+.navbar-brand{
+	display: block;
+	height: 50px;
 }
 }
 

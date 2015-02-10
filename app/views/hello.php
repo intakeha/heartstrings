@@ -78,12 +78,13 @@ Preloader
 		Romantic, atmospheric and evocative Italian and Latin Music.
 	      </p>
                 <div class="caption-buttons animated bounceInLeft" data-id="3">
-                    <a href="#about" class="btn btn-default btn-scroll">About Us</a>
+                    <a href="#booking" class="btn btn-default btn-scroll">Book Us</a>
                 </div>    
           	</div>
           </div>
       	</div>
       </div>  
+      
     <!--=================================
     JPlayer (Audio Player)
     =================================-->
@@ -215,7 +216,7 @@ Preloader
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand btn-scroll" href="#home"><img src="images/logo.png" alt="logo" style="height: 50px;"/> &nbsp; HeartStrings Music</a> </div>
+            <a class="navbar-brand btn-scroll" href="#home"><img src="images/logo.png" alt="logo""/> &nbsp; HeartStrings Music</a> </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#about">About</a></li>
@@ -439,6 +440,8 @@ Preloader
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="testimonial_quotes owl-carousel owl-theme ">
+						<blockquote> <b class="fa fa-quote-left"></b>We were so lucky to have Al and Hugo play live at our wedding! They really set the mood for a romantic and fun event.
+						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Rachel</a> </blockquote>
 						<blockquote> <b class="fa fa-quote-left"></b>I close my eyes and the music takes me away to Italy. The music is so exquisite, so authentic and so beautiful. 
 						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Bonnie</a> </blockquote>
 						<blockquote> <b class="fa fa-quote-left"></b>This is music for your heart and soul . I've shared with my family and they love it just as much. Bravo

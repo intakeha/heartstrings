@@ -196,7 +196,7 @@ jQuery(function($){
 		singleItem:true,
 	  	navigation : false,
 		transitionStyle:"backSlide",
-		autoPlay: 5000,
+		autoPlay: 8000,
 		afterAction:function(){$(window).trigger("resize");},
 	 });
 	 
