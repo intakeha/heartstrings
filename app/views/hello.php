@@ -440,7 +440,7 @@ Preloader
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="testimonial_quotes owl-carousel owl-theme ">
-						<blockquote> <b class="fa fa-quote-left"></b>We were so lucky to have Al and Hugo play live at our wedding! They really set the mood for a romantic and fun event.
+						<blockquote> <b class="fa fa-quote-left"></b>We were so lucky to have Al and Hugo play live at our wedding! They really set the mood for a fun and romantic atmosphere.
 						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Rachel</a> </blockquote>
 						<blockquote> <b class="fa fa-quote-left"></b>I close my eyes and the music takes me away to Italy. The music is so exquisite, so authentic and so beautiful. 
 						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Bonnie</a> </blockquote>
