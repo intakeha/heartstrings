@@ -36,6 +36,7 @@ Style Sheets
 <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
 <!--custom styles for theme-->
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/color3.css">
 
 <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
@@ -73,12 +74,19 @@ Preloader
 		</ul>
             <div class="hero_content banner-content animatedParent animateLoop" data-sequence="700">
             	
-                <h1 class="animated bounceInLeft" data-id="1"><img src="images/logo.png" alt="" style="height:100px; margin-bottom: 10px;" /><br>HeartStrings Music</h1>
+                <h1 class="animated bounceInLeft" data-id="1"><img src="images/heartstrings-logo.png" alt="" style="height: 200px; margin-bottom: 10px;" /><br>HeartStrings Music</h1>
                 <p class="animated bounceInLeft" data-id="2"> 
-		Romantic, atmospheric and evocative Italian and Latin Music.
+		A wonderful and unique listening experience!
 	      </p>
-                <div class="caption-buttons animated bounceInLeft" data-id="3">
-                    <a href="#booking" class="btn btn-default btn-scroll">Book Us</a>
+	      <p class="animated bounceInLeft" data-id="3"> 
+		Al Fabrizio's expressive mandolin with Hugo Wainzinger's heartwarming guitar and arrangements transport listeners to romantic places and favorite memories.
+	      </p>
+                <div class="caption-buttons animated bounceInLeft" data-id="4">
+                    <a href="#music" class="btn btn-default btn-scroll">Albums</a>
+		<a href="#schedule" class="btn btn-default btn-scroll">Performances</a>
+		<a href="#booking" class="btn btn-default btn-scroll">Book Us</a>
+		<a href="#about" class="btn btn-default btn-scroll">About Us</a>
+		<a href="#studio" class="btn btn-default btn-scroll">Recording Studio</a>
                 </div>    
           	</div>
           </div>
@@ -216,13 +224,14 @@ Preloader
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand btn-scroll" href="#home"><img src="images/logo.png" alt="logo""/> &nbsp; HeartStrings Music</a> </div>
+            <a class="navbar-brand btn-scroll" href="#home"><img src="images/heartstrings-logo.png" alt="logo""/></a> </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#about">About</a></li>
-              <li><a href="#music">Music</a></li>
-              <li><a href="#performances">Performances</a></li>
-              <li><a href="#booking">Booking</a></li>
+	    <li><a href="#music">Albums</a></li>
+	    <li><a href="#performances">Performances</a></li>
+	    <li><a href="#booking">Book Us</a></li>
+	    <li><a href="#about">About Us</a></li>
+	    <li><a href="#studio">Studio</a></li>
             </ul>
           </div>
           <!--/.nav-collapse --> 
@@ -231,76 +240,9 @@ Preloader
     </header>
     
     <div class="sections_wrapper"> 
-   
-        <!--======================================
-    About
-    ==========================================-->
-      <section id="about" class="about_section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="section_head_widget animatedParent ">
-	      <div style="margin-top: 50px;">&nbsp;</div>
-                <h1 class="animated fadeInDown">Their amazing story</h1>
-                <h4>how beautiful music is created</h4>
-              </div>
-            </div>
-            <!--section_head_widget--> 
-          </div>
-          <!--row-->
-          
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="text_widget">
-                <p>It all started when Al Fabrizio met Hugo Wainziger in 1992 through a mutual friend, Carlos Lopez, a fellow mendolinist.  They worked together on creating 
-		arrangements for many of Al's favorite Italian songs that he grew up with.  Over the years, Al and Hugo became great friends and created
-		HeartStrings Music.  The two perform live all over the San Francisco Bay Area and recorded 6 classic albums together.</p>
-                </div>
-            </div>
-          </div>
-        </div>
-	
-	        <!--contaier-->
-          <div class="row  animatedParent animateLoop">
-		<div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
-			<figure class="profiles animated fadeInLeft" data-id="4">
-				<img src="images/al-fabrizio.jpg" alt=""/>
-				<figcaption>Al Fabrizio</figcaption>
-			</figure>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<figure class="profiles animated fadeInRight" data-id="5">
-				<img src="images/hugo-wainziger.jpg" alt=""/>
-				<figcaption>Hugo Wainziger</figcaption>
-			</figure>
-		</div>		
-	</div>
-        <!--container--> 
-      </section>
-      
-      <!--======================================
-    Parallax/facebook page promotion Section
-    ==========================================-->
-      <section id="facebook" class="parallax parallax_one facebook_promo animatedParent " data-stellar-background-ratio="0.5">
-        <div class="parallax_inner ">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <h1 class="animated fadeInUp">HeartStrings Music</h1>
-                <h3 class="animated fadeInDown">"Like" If you love them! </h3>
-                <a href="https://www.facebook.com/pages/Heartstrings-Music-LLC/143792555667721?ref=br_tf" class="btn btn_fb" target="_blank">like us on facebook</a> </div>
-              <!--column--> 
-            </div>
-            <!--row--> 
-          </div>
-          <!--container--> 
-        </div>
-        <!--parallax_inner--> 
-      </section>
-      <!--//parallax--> 
-      
-    <!--=============
-    Music Tracks
+ 
+   <!--=============
+    Albums
     ===============-->
       <section id="music" class="track_section">
         <div class="container">
@@ -310,6 +252,8 @@ Preloader
 					<h2 class="animated fadeInLeft">HeartStrings Music</h2>
 					<h5 class="animated bounceInRight">Albums</h5>
 				</div>
+				<div style="text-transform: none;">Please contact us directly at (650) 625-1222 or INFO@HEARTSTRINGSMUSIC.COM to purchase signed copies of the CDs.</div>
+				
 				<!--section_head_widget--> 
 			</div>
 		</div>
@@ -328,7 +272,7 @@ Preloader
 					</div>
 					<!--//news_info_wrapper-->
 					<div class="hover">
-						<a href="http://www.cdbaby.com/cd/alfabrizio2" target="_blank">Buy CD</a><a href="#" data-toggle="modal" data-target="#serenata-italiana">Album Details</a>
+						<a class="album-details" href="#" data-toggle="modal" data-target="#serenata-italiana">Album Details</a><a class="album-details" href="http://www.cdbaby.com/cd/alfabrizio2" target="_blank">Buy CD</a>
 					</div>
 					<!--//hover--> 
 				</div>
@@ -347,7 +291,7 @@ Preloader
 					<!--news_info--> 
 					</div>
 					<!--//news_info_wrapper-->
-					<div class="hover"> <a href="http://www.cdbaby.com/cd/alfabrizio1" target="_blank">Buy CD</a><a href="#" data-toggle="modal" data-target="#italian-heartstrings">Album Details</a></div>
+					<div class="hover"> <a class="album-details" href="#" data-toggle="modal" data-target="#italian-heartstrings">Album Details</a><a class="album-details" href="http://www.cdbaby.com/cd/alfabrizio1" target="_blank">Buy CD</a></div>
 					<!--//hover--> 
 				</div>
 			<!--//news_box--> 
@@ -365,7 +309,7 @@ Preloader
 					<!--news_info--> 
 					</div>
 					<!--//news_info_wrapper-->
-					<div class="hover"> <a href="http://www.cdbaby.com/cd/alfabrizio3" target="_blank">Buy CD</a><a href="#" data-toggle="modal" data-target="#bella-serenata">Album Details</a></div>
+					<div class="hover"> <a href="#" class="album-details" data-toggle="modal" data-target="#bella-serenata">Album Details</a><a class="album-details" href="http://www.cdbaby.com/cd/alfabrizio3" target="_blank">Buy CD</a></div>
 				<!--//hover--> 
 				</div>
 			<!--//news_box--> 
@@ -383,7 +327,7 @@ Preloader
 					<!--news_info--> 
 					</div>
 					<!--//news_info_wrapper-->
-					<div class="hover"> <a href="http://www.cdbaby.com/cd/alfabrizio4" target="_blank">Buy CD</a><a href="#" data-toggle="modal" data-target="#serenata-amore">Album Details</a></div>
+					<div class="hover"> <a class="album-details" href="#" data-toggle="modal" data-target="#serenata-amore">Album Details</a><a class="album-details" href="http://www.cdbaby.com/cd/alfabrizio4" target="_blank">Buy CD</a></div>
 					<!--//hover--> 
 				</div>
 			<!--//news_box--> 
@@ -401,7 +345,7 @@ Preloader
 					<!--news_info--> 
 					</div>
 					<!--//news_info_wrapper-->
-					<div class="hover"> <a href="http://www.cdbaby.com/cd/alfabrizio5" target="_blank">Buy CD</a><a href="#" data-toggle="modal" data-target="#world-heartstrings">Album Details</a></div>
+					<div class="hover"> <a class="album-details" href="#" data-toggle="modal" data-target="#world-heartstrings">Album Details</a><a class="album-details" href="http://www.cdbaby.com/cd/alfabrizio5" target="_blank">Buy CD</a></div>
 					<!--//hover--> 
 				</div>
 			<!--//news_box--> 
@@ -419,7 +363,7 @@ Preloader
 					<!--news_info--> 
 					</div>
 					<!--//news_info_wrapper-->
-					<div class="hover"> <a href="http://www.cdbaby.com/cd/fabriziowainzinger" target="_blank">Buy CD</a> <a href="#" data-toggle="modal" data-target="#mandolin-for-lovers">Album Details</a></div>
+					<div class="hover"> <a class="album-details"  href="#" data-toggle="modal" data-target="#mandolin-for-lovers">Album Details</a><a class="album-details" href="http://www.cdbaby.com/cd/fabriziowainzinger" target="_blank">Buy CD</a> </div>
 				<!--//hover--> 
 				</div>
 			<!--//news_box--> 
@@ -429,42 +373,8 @@ Preloader
 		</div>
 	</div>
     </section>    
-    
-    
-<!--======================================
-    Parallax/Testimonial Section
-    ==========================================-->
-<div id="quotes" class="parallax parallax_two testimonial" data-stellar-background-ratio="0.5">
-	<div class="parallax_inner">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="testimonial_quotes owl-carousel owl-theme ">
-						<blockquote> <b class="fa fa-quote-left"></b>We were so lucky to have Al and Hugo play live at our wedding! They really set the mood for a fun and romantic atmosphere.
-						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Rachel</a> </blockquote>
-						<blockquote> <b class="fa fa-quote-left"></b>I close my eyes and the music takes me away to Italy. The music is so exquisite, so authentic and so beautiful. 
-						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Bonnie</a> </blockquote>
-						<blockquote> <b class="fa fa-quote-left"></b>This is music for your heart and soul . I've shared with my family and they love it just as much. Bravo
-						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Sylvia</a> </blockquote>
-						<blockquote> <b class="fa fa-quote-left"></b>Italian Heartstrings is a relaxing composition of romantic music. Its mood sweeps me away to a favorite cafe in Tuscany.
-						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">A. Pelletier</a> </blockquote>
-						<blockquote> <b class="fa fa-quote-left"></b> I can see my grandparents from Sicily dancing to these tunes when I listen to your music. 
-						<b class="fa fa-quote-right"></b> <a class="author_name" href="#">Bonnie</a> </blockquote>
-					</div>
-				<!--testimonial_quotes carousel end here--> 
-				</div>
-			<!--column--> 
-			</div>
-		<!--row--> 
-		</div>
-		<!--container--> 
-		<a href="http://www.cdbaby.com/Search/YWwgZmFicml6aW8gaHVnbyB3YWluemluZ2Vy/0" class="btn_itunes" target="_blank"><span class="fa fa-music"></span>HeartStrings Music</a>
-	</div>
-	<!--parallax_inner--> 
-</div>
-<!--//parallax--> 
  
-      <!--======================================
+       <!--======================================
     Parallax/event_promo Section
     ==========================================-->
       <section id="performances" class="parallax parallax_three event_promo" data-stellar-background-ratio="0.5">
@@ -485,9 +395,9 @@ Preloader
         <!--parallax_inner--> 
       </section>
       <!--//parallax--> 
-      
+ 
       <!--======================================
-    Tours Section
+    Performances Section
     ==========================================-->
       <section id="schedule" class="tours_section">
         <div class="container">
@@ -525,6 +435,20 @@ Preloader
               </div>
             </div>
             <!--tour row-->
+	    
+            <div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
+                  <span>April 24-26</span>
+                </div>
+                <div class="column_two"> <img src="images/strawberry-santa-maria.jpg" alt="" /> </div>
+                <div class="column_three"> Strawberry Festival</div>
+                <div class="column_four">Stanta Maria, CA</div>
+                <div class="column_five">Outdoor Festival</div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.santamariafairpark.com/" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+            <!--tour row-->
             
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
@@ -557,6 +481,20 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
+                  <span>May 16-17</span>
+                </div>
+                <div class="column_two"> <img src="images/chocolate.jpg" alt="" /> </div>
+                <div class="column_three"> Chocolate Festival</div>
+                <div class="column_four"> Oakdale, CA </div>
+                <div class="column_five"> Outdoor Festival</div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.oakdalechamber.com/chocolate-festival/" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+            <!--tour row-->
+
+	  <div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
                   <span>May 23-24</span>
                 </div>
                 <div class="column_two"> <img src="images/strawberry.jpg" alt="" /> </div>
@@ -568,13 +506,14 @@ Preloader
             </div>
             <!--tour row-->
             
+	<!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
                   <span>May 30-31</span>
                 </div>
                 <div class="column_two"> <img src="images/art-wine-festival.jpg" alt="" /> </div>
-                <div class="column_three"> Art and Wine Festival </div>
+                <div class="column_three">Art and Wine Festival </div>
                 <div class="column_four"> Walnut Creek, CA </div>
                 <div class="column_five"> Outdoor Festival </div>
                 <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.artwinefestivalwc.com/" target="_blank">Event Info</a> </div>
@@ -582,6 +521,7 @@ Preloader
             </div>
             <!--tour row-->
             
+	<!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -595,7 +535,36 @@ Preloader
               </div>
             </div>
             <!--tour row-->
-            
+	
+	<div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
+                  <span>June 13-14</span>
+                </div>
+                <div class="column_two"> <img src="images/novato.jpg" alt="" /> </div>
+                <div class="column_three"> Art and Wine Festival</div>
+                <div class="column_four"> Novato, CA </div>
+                <div class="column_five"> Outdoor Festival </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.novatoartwinemusic.com/" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+          <!--tour row-->
+
+	<div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
+                  <span>June 27-28</span>
+                </div>
+                <div class="column_two"> <img src="images/san-anselmo.jpg" alt="" /> </div>
+                <div class="column_three"> Art and Wine Festival</div>
+                <div class="column_four"> San Anselmo, CA </div>
+                <div class="column_five"> Outdoor Festival </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://sresproductions.com/san_anselmo_art_and_wine.html" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+          <!--tour row-->
+
+	
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -609,7 +578,7 @@ Preloader
               </div>
             </div>
             <!--tour row-->
-            
+
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -694,6 +663,7 @@ Preloader
             </div>
             <!--tour row--> 
 
+	<!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -725,7 +695,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 29-30</span>
+                  <span>September 26-27</span>
                 </div>
                 <div class="column_two"> <img src="images/fogfest.jpg" alt="" /> </div>
                 <div class="column_three"> Pacific Coast Fog Fest </div>
@@ -739,7 +709,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 29-30</span>
+                  <span>October 10-11</span>
                 </div>
                 <div class="column_two"> <img src="images/san-carlos-art-faire.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Faire</div>
@@ -764,6 +734,7 @@ Preloader
             </div>
             <!--tour row--> 
 
+	<!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -777,27 +748,28 @@ Preloader
               </div>
             </div>
             <!--tour row--> 
-
+	
+	<p style="margin-top: 50px;">The 1st, 2nd &amp; 3rd Thursdays of every month Al Performs at <a href="http://www.ilovegumbas.com/" target="_blank">Gumba's Italian restaurant</a> in Sunnyvale, CA. 6PM to 9 PM.</p>
 	</div>
         </div>
         <!--container--> 
       </section>
       <!--//tours--> 
-    
+
      <!--======================================
     Contact Form
     ==========================================-->
       <section id="booking" class="parallax parallax_five" data-stellar-background-ratio="0.5">
         <div class="parallax_inner">
 		<div class="container">
-			<div class="row" style="margin-top: -50px;">
+			<div class="row">
 				<div class="col-xs-12">
 					<div class="section_head_widget">
 						<h2>Booking</h2>
 						<h5 style="color: #ffcc33; margin-top: 10px;">We're available for weddings, coporate functions, and special occations.</h5>
 					</div>
 					<div style="margin: 20px 0;">
-						For quotes and reservations, please use the form below to contact us.
+						For quotes, bookings and studio reservations, please use the form below to contact us.
 					</div>
 				</div>
 			<!--section_head_widget--> 
@@ -844,7 +816,163 @@ Preloader
         <!--contact_inner--> 
       </section>
       <!--//contact--> 
+ 
+        <!--======================================
+    About
+    ==========================================-->
+      <section id="about" class="about_section sections_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="section_head_widget animatedParent ">
+	      <div style="margin-top: 5px;">&nbsp;</div>
+                <h1 class="animated fadeInDown">Their amazing story</h1>
+                <h4>how beautiful music is created</h4>
+              </div>
+            </div>
+            <!--section_head_widget--> 
+          </div>
+          <!--row-->
+          
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="text_widget">
+		<!--<p>It all started when Al Fabrizio met Hugo Wainziger in 1992 through a mutual friend, Carlos Lopez, a fellow mendolinist.  They worked together on creating 
+		arrangements for many of Al's favorite Italian songs that he grew up with.  Over the years, Al and Hugo became great friends and created
+		HeartStrings Music.  The two perform live all over the San Francisco Bay Area and recorded 6 classic albums together.</p> -->
+		
+		<p>Al (Anselmo) Fabrizio, born in Cortland, New York, grew up with a mother who loved
+		harmonizing to songs on the radio, a father, (born in Italy) who played italian mandolin
+		and two outstanding musician brothers. Al, the youngest, played clarinet, oboe and
+		piano. His home was always filled with music. But he left music behind for a career 
+		in graphic arts and as an art instructor at two local colleges in California. 
+		When Al was 58 years of age he was shaken by the sudden passing of his brother,
+		Raymond after a bout with cancer. That is when Al made a commitment to revive the
+		music he loved and grew up with as a child and he begin seriously playing the 
+		mandolin. At first he played duets with Dr. Carlos Lopez, an outstanding mandolinist in
+		San Jose, California. Later, Carlos introduced him to Hugo Wainzinger, a master 
+		guitarist and composer who had recently arrived from Argentina. The three musicians
+		occasionally played together until Hugo and Al combined as a duet to record their first
+		album of Italian favorites, "Serenata Italiana." The album's overwhelming reception 
+		inspired them to continue recording together. </p>
+		<p>They became long time friends and established a recording and production studio to
+		work at music full time. By the year 2014 they released six successful albums featuring
+		Al on mandolin and Hugo on guitar and additional instruments with his arrangements.
+		Each album is a delightful package of easy-listening songs we all love from many
+		countries, heart-warming, romantic, beautiful and refreshing. When they perform live,
+		they receive accolades of thanks and appreciation. Their extensive repertoire and 
+		popularity grows and fills their schedules. They perform together and separately all
+		over California and beyond.</p>
+		<p>At their studio, "Heartstrings Music. L.L.C." Hugo is the producer and sound engineer,
+		recording, mixing and mastering musicians' projects and backgrounds and 
+		also performing audio editing and restoring for film productions. He composes,
+		arranges and often performs in the recordings as well. Two of
+		nominations for California "Bammy" awards.</p>
+		
+                </div>
+		
+		
 
+            </div>
+          </div>
+        </div>
+
+          <div class="row  animatedParent animateLoop">
+		<div class="col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
+			<figure class="profiles animated fadeInLeft" data-id="4">
+				<img src="images/al-fabrizio.jpg" alt=""/>
+				<a href="#" data-toggle="modal" data-target="#al_bio"><figcaption>Al Fabrizio's Bio</figcaption></a>
+			</figure>
+		</div>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<figure class="profiles animated fadeInRight" data-id="5">
+				<img src="images/hugo-wainziger.jpg" alt=""/>
+				<a href="#" data-toggle="modal" data-target="#hugo_bio"><figcaption>Hugo Wainziger's Bio</figcaption></a>
+			</figure>
+		</div>		
+	</div>
+	
+        <!--container--> 
+      </section>
+      <a class="trigger_slider btn_itunes" href="#" data-toggle="modal" data-target="#gal_pop"><span class="fa fa-download"></span>Press / Media Kit</a>
+ 
+ <!--======================================
+    Parallax/Studio
+    ==========================================-->
+      <section id="studio" class="parallax parallax_seven" data-stellar-background-ratio="0.5">
+        <div class="parallax_inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 animatedParent animateLoop section_head_widget">
+					<h2 class="animated fadeInDown" style="margin: 50px;">Recording Studio</h2>
+					<p class="animated bounceInRight">Heartstrings Music Studio offers a full range of services in a creative-focused environment. Our individual approach and hospitality services include music recording and mixing, 5.1 surround mixing, music production services, and audio post production. </p>
+					<a href="#booking" class="btn btn-scroll animated bounceInUp">Studio Booking</a>
+				</div>
+			<!--column--> 
+			</div>
+		    <!--row--> 
+		</div>
+          <!--container--> 
+        </div>
+        <!--parallax_inner--> 
+      </section>
+      <!--//parallax--> 
+ 
+
+
+      <!--======================================
+    Parallax/facebook page promotion Section
+    ==========================================-->
+      <section id="facebook" class="parallax parallax_one facebook_promo animatedParent " data-stellar-background-ratio="0.5">
+        <div class="parallax_inner ">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1 class="animated fadeInUp">HeartStrings Music</h1>
+                <h3 class="animated fadeInDown">"Like" If you love them! </h3>
+                <a href="https://www.facebook.com/pages/Heartstrings-Music-LLC/143792555667721?ref=br_tf" class="btn btn_fb" target="_blank">like us on facebook</a> </div>
+              <!--column--> 
+            </div>
+            <!--row--> 
+          </div>
+          <!--container--> 
+        </div>
+	<a href="http://www.cdbaby.com/Search/YWwgZmFicml6aW8gaHVnbyB3YWluemluZ2Vy/0" class="btn_itunes" target="_blank"><span class="fa fa-music"></span>HeartStrings Music</a>
+        <!--parallax_inner--> 
+      </section>
+      <!--//parallax--> 
+    
+<!--======================================
+    Parallax/Testimonial Section
+    ==========================================-->
+<div id="quotes" class="parallax parallax_two testimonial" data-stellar-background-ratio="0.5">
+	<div class="parallax_inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="testimonial_quotes owl-carousel owl-theme ">
+						<blockquote> <b class="fa fa-quote-left"></b>We were so lucky to have Al and Hugo play live at our wedding! They really set the mood for a fun and romantic atmosphere.
+						<b class="fa fa-quote-right"></b> <div class="author_name">Rachel</div></blockquote>
+						<blockquote> <b class="fa fa-quote-left"></b>I close my eyes and the music takes me away to Italy. The music is so exquisite, so authentic and so beautiful. 
+						<b class="fa fa-quote-right"></b> <div class="author_name">Bonnie</div></blockquote>
+						<blockquote> <b class="fa fa-quote-left"></b>This is music for your heart and soul . I've shared with my family and they love it just as much. Bravo!
+						<b class="fa fa-quote-right"></b> <div class="author_name">Sylvia</div></blockquote>
+						<blockquote> <b class="fa fa-quote-left"></b>Italian Heartstrings is a relaxing composition of romantic music. Its mood sweeps me away to a favorite cafe in Tuscany.
+						<b class="fa fa-quote-right"></b><div class="author_name">A. Pelletier</div></blockquote>
+						<blockquote> <b class="fa fa-quote-left"></b> I can see my grandparents from Sicily dancing to these tunes when I listen to your music. 
+						<b class="fa fa-quote-right"></b><div class="author_name"> Bonnie</div></blockquote>
+					</div>
+				<!--testimonial_quotes carousel end here--> 
+				</div>
+			<!--column--> 
+			</div>
+		<!--row--> 
+		</div>
+		<!--container--> 
+	</div>
+	<!--parallax_inner--> 
+</div>
+<!--//parallax--> 
 
     <!--=====================================
     Pop Ups
@@ -853,6 +981,83 @@ Preloader
     <div id="jpID">
 	<div id="jpContainer"></div>
     </div>
+
+<!-- Modal Bios-->
+<div class="modal fade" id="al_bio" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<div class="modal-body">
+				<div class="container" style="text-transform: none; padding: 50px;">
+					<img src="images/al-bio-header.jpg" alt="" />
+					<p style="margin: 20px 0;">Al (Anselmo) Fabrizio's father emigrated to the United States from Abruzzi, Italy. Although his father worked hard
+					as a carpenter, he played beautiful old Italian melodies on the mandolin at home. Since his early childhood Al was 
+					enraptured by the plaintive sounds his dad produced and he never forgot those beautiful Italian songs. His family 
+					were all gifted musicians. His mother would harmonize, his brother Raymond was a flute virtuoso, his brother Carl
+					played trumpet and Al played clarinet. They would spend many happy hours playing music together.</p>
+
+					<p style="margin-bottom: 20px;">However, for much of his adult life Al left music behind for a career as a graphic artist. He owned a graphics and 
+					publishing company in Palo Alto, and also taught art at San Jose State University and Foothill College in California. 
+					Al's career as a mandolinist did not begin until adulthood shortly after the sudden loss of his brother Raymond. It was
+					then that he made a commitment to keep music alive in his family. He picked up his father's mandolin and started 
+					playing beautiful Italian happy and romantic melodies that he remembered hearing his father play.</p>
+
+					<p style="margin-bottom: 20px;">Al's life changed when he met Hugo Wainzinger, a virtuoso guitarist and composer. Al and Hugo played so well together
+					that in 1997 they decided to record an album with Al playing the mandolin in the expressive Neapolitan "tremolo" style. 
+					The album, "Serenata Italiana," stirred the hearts of listeners and took them through the canals of Venice, the vineyards
+					of Tuscany and the hills of Sicily. This album was so widely received that they built a state of the art production and
+					recording studio and they now have six albums with Italian, Latin and world favorite melodies, each album receiving five-
+					star reviews. The CDs are: "Serenata Italiana," "Italian Heartstrings," "Bella Serenata," "Serenata D'Amore," "World
+					Heartstrings" and "Mandolin for Lovers." </p>
+
+					<p style="margin-bottom: 20px;">Al Fabrizio and Hugo Wainzinger are co-owners of Heartstrings Music, L.L.C. producing and recording for other musi-
+					cians and various audio applications in Mountain View, California. They perform together and separately throughout the
+					country for parties, weddings, corporate and private events and gatherings of all sorts.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="hugo_bio" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<div class="modal-body">
+				<div class="container" style="text-transform: none; padding: 50px;">
+					<img src="images/hugo-bio-header.jpg" alt="" />
+					<p style="margin: 20px 0;">Hugo was born in Buenos Aires, Argentina and raised in Tucuman, Argentina. Since his childhood Hugo was exposed 
+					to a wide variety of music largely through the influence of his mother, a passionate bolero singer known throughout 
+					Argentina and many other countries in South and Central America. He also absorbed many styles and rhythms 
+					from Argentina's wide cultural diversity and proximity to Brazil and Uruguay. When he was sixteen Hugo picked up 
+					the guitar and started playing "by ear" all the music that he was exposed to. In his thirties he had the opportunity of
+					orchestrating and conducting the musical, "Showboat" in Buenos Aires. </p>
+					<p style="margin-bottom: 20px;">Hugo's skills span the entire music spectrum, folk to classical to jazz to the most recent musical trends.Hugo is fluent
+					in Spanish, Portuguese and English. Shortly after Hugo arrived in the United States with his family in 1991, he met
+					Carlos Lopez, a Peruvian mandolinist, who introduced him to Al Fabrizio, an Italian mandolinist. The three musicians
+					performed at local venues for awhile, however Carlos left the trio shorty afterward and Hugo continued with Al and
+					formed a partnership called "Heartstrings Music". Together they build a state of the art production and recording 
+					studio and currently the two recorded their first album in 1997 called "Serenata Italiana." The album was an instant
+					success and so well received that they went on to produce five more albums which continue to be very popular. Hugo
+					also produced an album called "Lost In Your Eyes" featuring vocalist Shana Carlson with Hugo's own compositions
+					with lyrics by Ken McKenzie. Hugo also produced "Quien Soy" featuring vocalist Lichi Fuentes from Chile. "Quien
+					Soy" was reviewed by "Critic's Choice" calling it "the best Latin album of the year." Hugo also mixed the salsa album
+					"Jardinero" by the great Cuban percussionist, Jesus Diaz. Hugo performed, mixed and mastered the album "Cuerdas
+					de Fuego" for the renowned Paraguayan harpist, Ramon Romero. Hugo's latest work is an album of beautiful romantic
+					favorite boleros called "Sombras" sung by Argentine vocalist Claudio Ortega. This album includes three of Hugo's
+					original compositions. All the background arrangements, guitars and samplers are composed, performed and 
+					orchestrated by Hugo.</p>
+
+					<p style="margin-bottom: 20px;">Hugo has performed as a soloist and with other musicians at the San Francisco Jazz Festival, the San Jose Jazz 
+					Festival, tango performances as well as leading jazz workshops. Hugo has appeared several times on Bay Area 
+					television and radio.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
  	<!--=======================trackpopup - Serenata Italiana=============================-->
     <div class="modal fade" id="serenata-italiana" tabindex="-1" role="dialog" aria-hidden="true">
@@ -3550,6 +3755,29 @@ Preloader
           </div>
         </div>
       </div>
+
+      <!--============Gallery=================-->
+      <div class="modal fade" id="gal_pop" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <button type="button" class="close destroy_owl" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <div class="modal-body">
+            
+                  <div class="gallery_popup container">
+                    <h2>Heartstrings Media Pack</h2>
+		<div><a class="btn" href="files/press-kit.zip"><span class="fa fa-download"></span> Press / Media Kit Download</a></div>
+                    <div class="galery_widget" style="margin-top: 50px;">
+                        <ul class="gal_list">
+			<li class="trigger_slider"><img src="images/photo-01.png" alt="" /></li>
+			<li class="trigger_slider"><img src="images/photo-02.png" alt="" /></li>
+			<li class="trigger_slider"><img src="images/photo-03.png" alt="" /></li>
+                        </ul>
+                    </div>
+                </div><!--gallery-popup-->
+              </div>
+          </div>
+        </div>
+      </div> 
 
       <!--======================================
     Footer

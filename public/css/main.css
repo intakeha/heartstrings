@@ -388,7 +388,6 @@ a.ScrollTo{
 }
 .banner_slider .btn{
 	float:left;
-	padding:15px 35px;
 	border:none;
 	border-radius:0;
 	margin-top:45px;
@@ -689,15 +688,16 @@ a.playlist_expander{
 
 .parallax_inner {
 	position: relative;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .parallax_one { background-image: url(../images/bg-01.jpg);}
 .parallax_two { background-image: url(../images/cinque-terre-01.jpg);}
-#quotes .parallax_inner{ background-image: url(../images/dot-overlay.png);}
+#quotes .parallax_inner, #studio .parallax_inner{ background-image: url(../images/dot-overlay.png);}
 .parallax_three { background-image: url(../images/lights.jpg);}
 .parallax_five { background-image: url(../images/contact.jpg);}
 .parallax_six { background: #000;}
+.parallax_seven {  background-image: url(../images/bg-13.jpg);}
 
 /*==========================
 7-Channels
@@ -756,6 +756,11 @@ a.playlist_expander{
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+a.album-details:hover{
+	background-color: #396cb0 !important;
+}
+
 @-webkit-keyframes toUpCustom {
 	49% {
 		-webkit-transform: translateY(-100%);
@@ -1272,22 +1277,26 @@ a.playlist_expander{
 	padding-bottom: 100px;
 }
 .testimonial blockquote {
-	font-size: 60px;
+	font-size: 30px;
 	margin: 0;
 	padding: 0;
 	border: 0;
-	line-height: 70px;
-	padding-bottom: 70px;
+	line-height: 45px;
+	padding-bottom: 45px;
+}
+.fa-quote-left:before, .fa-quote-right:before{
+	color: #ffea00;
 }
 .testimonial blockquote b{
-	color: #cc1313;
+	color: #ffea00;
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.testimonial a {
+.testimonial .author_name {
 	font-size: 30px;
-	color: #cc1313;
+	color: #ffea00;
 	line-height: 30px;
+	margin-top: 50px;
 }
 blockquote .author_name {
 	display: block;
@@ -1304,7 +1313,7 @@ a.btn_itunes {
 	padding: 16px;
 }
 a.btn_itunes:hover{
-	background:#cc1313;
+	background:#396cb0;
 }
 .testimonial a.btn_itunes {
 	position: absolute;
@@ -1333,15 +1342,15 @@ a.btn_itunes:hover{
 	padding-bottom: 120px;
 }
 .event_promo h3 { color: #cc1313; }
-.event_promo a.btn {
+.event_promo a.btn, #studio a.btn {
 	color: #fff;
-	background: #cc1313;
+	background: #2f5991;
 	border-radius: 0;
 	font-size: 30px;
 	margin-top: 35px;
 	padding: 15px 40px;
 }
-.event_promo a.btn:hover { color: #fff; background:#222222}
+.event_promo a.btn:hover, #studio a.btn:hover { color: #fff; background:#396cb0}
 /*==========================
  16-Media
 ==========================*/
@@ -1463,10 +1472,10 @@ a.btn_itunes:hover{
 	background-color:#cc1313;
 }
 .galery_widget .owl-theme .owl-controls .owl-buttons div.owl-prev{
-	background-image:url(../img/basic/gal-pre.png);
+	background-image:url(../images/gal-pre.png);
 }
 .galery_widget .owl-theme .owl-controls .owl-buttons div.owl-next{
-	background-image:url(../img/basic/gal-next.png);
+	background-image:url(../images/gal-next.png);
 }
 .galery_widget .owl-controls{
 	margin-top:0;
@@ -1804,6 +1813,11 @@ ul.music_widget > li{
 }
 .about_section .section_head_widget { text-align: center; }
 .about_section .section_head_widget h4 { color: #cc1313; }
+
+.about_section .profiles figcaption:hover{
+	background-color: #d41010;
+	color: #fff;
+}
 
 /*====================================
 20-Footer
