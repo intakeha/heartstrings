@@ -55,42 +55,46 @@ Preloader
     <!--=================================
     Vegas Slider Images 
     =================================-->
-    <ul class="vegas-slides hidden" data-speed="8000">
+    <ul class="vegas-slides hidden" data-speed="80000">
       <li><img data-fade='2000' src="images/bg-10.jpg" alt="" /></li>      
-      <li><img data-fade='2000' src="images/bg-08.jpg" alt="" /></li>
-      <li><img data-fade='2000' src="images/bg-06.jpg" alt="" /></li>
     </ul>
     <!--================
      Banner
     ====================-->
     <section id="home" class="banner banner_slider hero_section banner-right-align">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-		<ul class="vegas-controls">
-			<li class="active"><a href="#"></a></li>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-		</ul>
-            <div class="hero_content banner-content animatedParent animateLoop" data-sequence="700">
-            	
-                <h1 class="animated bounceInLeft" data-id="1"><img src="images/heartstrings-logo.png" alt="" style="height: 200px; margin-bottom: 10px;" /><br>HeartStrings Music</h1>
-                <p class="animated bounceInLeft" data-id="2"> 
-		A wonderful and unique listening experience!
-	      </p>
-	      <p class="animated bounceInLeft" data-id="3"> 
-		Al Fabrizio's expressive mandolin with Hugo Wainzinger's heartwarming guitar and arrangements transport listeners to romantic places and favorite memories.
-	      </p>
-                <div class="caption-buttons animated bounceInLeft" data-id="4">
-                    <a href="#music" class="btn btn-default btn-scroll">Albums</a>
-		<a href="#schedule" class="btn btn-default btn-scroll">Performances</a>
-		<a href="#booking" class="btn btn-default btn-scroll">Book Us</a>
-		<a href="#about" class="btn btn-default btn-scroll">About Us</a>
-		<a href="#studio" class="btn btn-default btn-scroll">Recording Studio</a>
-                </div>    
-          	</div>
-          </div>
-      	</div>
+		<div class="row">
+			<div class="col-xs-12">
+			<!--
+			<ul class="vegas-controls">
+				<li class="active"><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			-->
+				<div class="hero_content banner-content animatedParent animateLoop" data-sequence="700">
+				
+					<h1 class="animated bounceInLeft" data-id="1"><img src="images/heartstrings-logo.png" alt="" style="height: 160px; margin-bottom: 10px;" /><br>HeartStrings Music</h1>
+					<p class="animated bounceInLeft" data-id="2"> 
+					A wonderful and unique listening experience!
+					</p>
+					<p class="animated bounceInLeft" data-id="3" style="line-height: 20px;"> 
+					Al Fabrizio's expressive mandolin with Hugo Wainzinger's heartwarming guitar and arrangements transport listeners to romantic places and favorite memories.
+					</p>
+					<div class="caption-buttons animated bounceInLeft" data-id="4">
+						<a href="#music" class="btn btn-default btn-scroll">Albums</a>
+						<a href="#schedule" class="btn btn-default btn-scroll">Performances</a>
+						<a href="#booking" class="btn btn-default btn-scroll">Book Us</a>
+						<a href="#about" class="btn btn-default btn-scroll">About Us</a>
+						<a href="#studio" class="btn btn-default btn-scroll">Recording Studio</a>
+					</div>    
+				</div>
+				
+			</div>
+			<div class="col-xs-12" style="text-align: center; margin-top: 30px;">
+				 scroll  down <img src="images/scroll-down.png" style="height: 20px; margin-top: -5px;"/>
+			</div>
+		</div>
       </div>  
       
     <!--=================================
@@ -836,7 +840,7 @@ Preloader
           
           <div class="row">
             <div class="col-xs-12">
-              <div class="text_widget">
+              <div class="text_widget" style="color: #fff;">
 		<!--<p>It all started when Al Fabrizio met Hugo Wainziger in 1992 through a mutual friend, Carlos Lopez, a fellow mendolinist.  They worked together on creating 
 		arrangements for many of Al's favorite Italian songs that he grew up with.  Over the years, Al and Hugo became great friends and created
 		HeartStrings Music.  The two perform live all over the San Francisco Bay Area and recorded 6 classic albums together.</p> -->
@@ -906,6 +910,17 @@ Preloader
 				<div class="col-xs-12 animatedParent animateLoop section_head_widget">
 					<h2 class="animated fadeInDown" style="margin: 50px;">Recording Studio</h2>
 					<p class="animated bounceInRight">Heartstrings Music Studio offers a full range of services in a creative-focused environment. Our individual approach and hospitality services include music recording and mixing, 5.1 surround mixing, music production services, and audio post production. </p>
+					<ul id="studio-services">
+						<li>Recording</li>
+						<li>Mixing</li>
+						<li>Mastering</li>
+						<li>Composing</li>
+						<li>Accompaniments</li>
+						<li>Arranging</li>
+						<li>Audio Restoration</li>
+						<li>Soundtracks</li>
+					</ul>
+					
 					<a href="#booking" class="btn btn-scroll animated bounceInUp">Studio Booking</a>
 				</div>
 			<!--column--> 
