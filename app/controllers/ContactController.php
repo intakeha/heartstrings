@@ -27,7 +27,7 @@ class ContactController extends BaseController {
 				//email 'From' field: Get users email add and name
 				$message->from($data['email'] , $data['name']);
 				//email 'To' field: cahnge this to emails that you want to be notified.                    
-				$message->to('chon@woorus.com', 'Woorus')->subject('Contact Request');
+				$message->to('info@heartstringsmusic.com', 'Mailer')->bcc('chon@woorus.com')->subject('Contact Request');
 			});
 
 			$success_message = "Thanks! We'll reach out to you soon.";
