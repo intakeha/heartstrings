@@ -25,7 +25,7 @@ class ContactController extends BaseController {
 			Mail::send('emails.hello', $data, function($message) use ($data)
 			{
 				//email 'From' field: Get users email add and name
-				$message->from($data['email'] , $data['name']);
+				$message->from('info@heartstringsmusic.com' , 'Mailer');
 				//email 'To' field: cahnge this to emails that you want to be notified.                    
 				$message->to('info@heartstringsmusic.com', 'Mailer')->bcc('chon@woorus.com')->subject('Contact Request');
 			});

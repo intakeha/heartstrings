@@ -770,7 +770,7 @@ Preloader
 				<div class="col-xs-12">
 					<div class="section_head_widget">
 						<h2>Booking</h2>
-						<h5 style="color: #ffcc33; margin-top: 10px;">We're available for weddings, coporate functions, and special occations.</h5>
+						<h5 style="color: #ffcc33; margin-top: 10px;">We're available for weddings, corporate functions, and special occasions.</h5>
 					</div>
 					<div style="margin: 20px 0;">
 						For quotes, bookings and studio reservations, please use the form below to contact us.
