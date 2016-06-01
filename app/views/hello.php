@@ -409,7 +409,7 @@ Preloader
             <div class="col-xs-12">
               <div class="section_head_widget">
                 <h2>Performances</h2>
-                <h5>2015 HeartStrings Schedule</h5>
+                <h5>2016 HeartStrings Schedule</h5>
               </div>
             </div>
             <!--section_head_widget--> 
@@ -426,44 +426,17 @@ Preloader
               <div class="column_five"> Venue </div>
               <div class="column_six"> Links </div>
             </div>
-            <div class="tour_row animatedParent  ">
-              <div class="animated fadeInDownShort">
-                <div class="column_one">
-                  <span>April 11-12</span>
-                </div>
-                <div class="column_two"> <img src="images/big-hat.jpg" alt="" /> </div>
-                <div class="column_three"> Big Hat Days</div>
-                <div class="column_four">Clovis, CA</div>
-                <div class="column_five">Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.clovischamber.com/events/big_hat_days" target="_blank">Event Info</a> </div>
-              </div>
-            </div>
-            <!--tour row-->
-	    
-            <div class="tour_row animatedParent  ">
-              <div class="animated fadeInDownShort">
-                <div class="column_one">
-                  <span>April 24-26</span>
-                </div>
-                <div class="column_two"> <img src="images/strawberry-santa-maria.jpg" alt="" /> </div>
-                <div class="column_three"> Strawberry Festival</div>
-                <div class="column_four">Stanta Maria, CA</div>
-                <div class="column_five">Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.santamariafairpark.com/" target="_blank">Event Info</a> </div>
-              </div>
-            </div>
-            <!--tour row-->
             
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>May 2-3</span>
+                  <span>April 30-May 1</span>
                 </div>
                 <div class="column_two"> <img src="images/wine-country-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Wine Country Festival </div>
                 <div class="column_four"> Livermore, CA </div>
                 <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://livermoredowntown.com/livermore-wine-country-festival/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.livermoredowntown.com/livermore-wine-country-downtown-street-fest/2016/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
@@ -471,27 +444,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>May 9-10</span>
+                  <span>May 7-8</span>
                 </div>
                 <div class="column_two"> <img src="images/spring-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Park Street Spring Festival </div>
                 <div class="column_four"> Alameda, CA </div>
                 <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.shopparkstreet.com/springfestival.html" target="_blank">Event Info</a> </div>
-              </div>
-            </div>
-            <!--tour row-->
-            
-            <div class="tour_row animatedParent  ">
-              <div class="animated fadeInDownShort">
-                <div class="column_one">
-                  <span>May 16-17</span>
-                </div>
-                <div class="column_two"> <img src="images/chocolate.jpg" alt="" /> </div>
-                <div class="column_three"> Chocolate Festival</div>
-                <div class="column_four"> Oakdale, CA </div>
-                <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.oakdalechamber.com/chocolate-festival/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://downtownalameda.com/Spring-Festival" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
@@ -499,7 +458,7 @@ Preloader
 	  <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>May 23-24</span>
+                  <span>May 28-29</span>
                 </div>
                 <div class="column_two"> <img src="images/strawberry.jpg" alt="" /> </div>
                 <div class="column_three"> Strawberry Festival </div>
@@ -510,11 +469,10 @@ Preloader
             </div>
             <!--tour row-->
             
-	<!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>May 30-31</span>
+                  <span>June 4-5</span>
                 </div>
                 <div class="column_two"> <img src="images/art-wine-festival.jpg" alt="" /> </div>
                 <div class="column_three">Art and Wine Festival </div>
@@ -543,7 +501,7 @@ Preloader
 	<div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>June 13-14</span>
+                  <span>June 11-12</span>
                 </div>
                 <div class="column_two"> <img src="images/novato.jpg" alt="" /> </div>
                 <div class="column_three"> Art and Wine Festival</div>
@@ -557,13 +515,13 @@ Preloader
 	<div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>June 27-28</span>
+                  <span>June 26-27</span>
                 </div>
                 <div class="column_two"> <img src="images/san-anselmo.jpg" alt="" /> </div>
                 <div class="column_three"> Art and Wine Festival</div>
                 <div class="column_four"> San Anselmo, CA </div>
                 <div class="column_five"> Outdoor Festival </div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://sresproductions.com/san_anselmo_art_and_wine.html" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.sresproductions.com/events/san-anselmo-art-wine-festival/" target="_blank">Event Info</a> </div>
               </div>
             </div>
           <!--tour row-->
@@ -572,13 +530,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>July 18-19</span>
+                  <span>July 16-17</span>
                 </div>
-                <div class="column_two"> <img src="images/connoisseurs.jpg" alt="" /> </div>
-                <div class="column_three"> Connoisseurs' Marketplace </div>
+                <div class="column_two"> <img src="images/summerfest.jpg" alt="" /> </div>
+                <div class="column_three"> Menlo Summerfest</div>
                 <div class="column_four"> Menlo Park, CA </div>
                 <div class="column_five"> Outdoor Festival </div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://menloparkchamber.com/events/connoisseurs-marketplace/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://pacificfinearts.com/2016-show-schedule/menlo-summerfest/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
@@ -586,7 +544,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>July 25-26</span>
+                  <span>July 30-31</span>
                 </div>
                 <div class="column_two"> <img src="images/wine-faire.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Faire </div>
@@ -600,7 +558,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 1-2</span>
+                  <span>August 6-7</span>
                 </div>
                 <div class="column_two"> <img src="images/fremont-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Festival of the Arts </div>
@@ -614,7 +572,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 8</span>
+                  <span>August 13</span>
                 </div>
                 <div class="column_two"> <img src="images/benicia.jpg" alt="" /> </div>
                 <div class="column_three"> Benicia Peddler's Fair </div>
@@ -628,7 +586,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 29-30</span>
+                  <span>August 27-28</span>
                 </div>
                 <div class="column_two"> <img src="images/italian-family-festa.jpg" alt="" /> </div>
                 <div class="column_three"> Family Festa Italiana </div>
@@ -642,7 +600,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>September 5-6</span>
+                  <span>September 3-4</span>
                 </div>
                 <div class="column_two"> <img src="images/millbrae-art-wine-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Festival </div>
@@ -656,7 +614,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>September 12-13</span>
+                  <span>September 10-11</span>
                 </div>
                 <div class="column_two"> <img src="images/mountain-view-art-wine.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Festival</div>
@@ -685,7 +643,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>September 19-20</span>
+                  <span>September 17-18</span>
                 </div>
                 <div class="column_two"> <img src="images/lafayette-art-wine.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Festival</div>
@@ -696,6 +654,22 @@ Preloader
             </div>
             <!--tour row--> 
 
+	  <!--
+            <div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
+                  <span>September 24-25</span>
+                </div>
+                <div class="column_two"> <img src="images/fogfest.jpg" alt="" /> </div>
+                <div class="column_three"> Menlo Park Market Place </div>
+                <div class="column_four"> Menlo Park, CA </div>
+                <div class="column_five"> Outdoor Festival</div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://pacificcoastfogfest.com/" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+            <!--tour row--> 
+	    
+	  <!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -713,13 +687,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>October 10-11</span>
+                  <span>October 2</span>
                 </div>
-                <div class="column_two"> <img src="images/san-carlos-art-faire.jpg" alt="" /> </div>
-                <div class="column_three"> Art &amp; Wine Faire</div>
-                <div class="column_four"> San Carlos, CA </div>
+                <div class="column_two"> <img src="images/little_italy_sj.jpg" alt="" /> </div>
+                <div class="column_three"> Little Italy Festival</div>
+                <div class="column_four"> San Jose, CA </div>
                 <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://sancarloschamber.org/san-carlos-art-wine-faire-2014/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.littleitalysj.com/index.html" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row--> 
@@ -727,7 +701,21 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>October 17-18</span>
+                  <span>October 8-9</span>
+                </div>
+                <div class="column_two"> <img src="images/san-carlos-art-faire.jpg" alt="" /> </div>
+                <div class="column_three"> Art &amp; Wine Faire</div>
+                <div class="column_four"> San Carlos, CA </div>
+                <div class="column_five"> Outdoor Festival</div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://pacificfinearts.com/2016-show-schedule/san-carlos-art-wine-faire/" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+            <!--tour row--> 
+
+            <div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
+                  <span>October 15-16</span>
                 </div>
                 <div class="column_two"> <img src="images/hmb-art-pumpkin.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Pumpkin Festival </div>
