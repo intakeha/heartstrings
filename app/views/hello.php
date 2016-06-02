@@ -401,7 +401,7 @@ Preloader
 				<div class="col-xs-12 animatedParent animateLoop">
 					<h1 class="animated fadeInDown">Performing Live!</h1>
 					<h3 class="animated bounceInRight">San Francisco Bay Area</h3>
-					<a href="#schedule" class="btn btn-scroll animated bounceInUp">2015 Schedule</a>
+					<a href="#schedule" class="btn btn-scroll animated bounceInUp">2016 Schedule</a>
 				</div>
 			<!--column--> 
 			</div>
@@ -3806,7 +3806,7 @@ Preloader
 				Mountain View, CA 94043<br>
 			</div>
 			<div class="col-sm-4 col-md-4 copyrights">
-				<div>&copy; 2015 HeartStrings Music LLC.</div>
+				<div>&copy; 2016 HeartStrings Music LLC.</div>
 				<div>Website by <a href="http://woorus.com" target="_blank">Woorus</a></div>
 			</div>
 			<div class="col-sm-4 col-md-4 copyrights">
