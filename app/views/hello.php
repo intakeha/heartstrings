@@ -512,6 +512,7 @@ Preloader
             </div>
           <!--tour row-->
 
+	<!--
 	<div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -526,6 +527,19 @@ Preloader
             </div>
           <!--tour row-->
 
+	<div class="tour_row animatedParent  ">
+              <div class="animated fadeInDownShort">
+                <div class="column_one">
+                  <span>July 6</span>
+                </div>
+                <div class="column_two"> <img src="images/stanford.png" alt="" /> </div>
+                <div class="column_three">Stanford Hospital Atrium</div>
+                <div class="column_four"> Stanford, CA </div>
+                <div class="column_five"> Atrium</div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="https://stanfordhealthcare.org/events/bing-concert-series.html" target="_blank">Event Info</a> </div>
+              </div>
+            </div>
+          <!--tour row-->
 	
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
@@ -741,7 +755,12 @@ Preloader
             </div>
             <!--tour row--> 
 	
-	<p style="margin-top: 50px;">The 1st, 2nd &amp; 3rd Thursdays of every month Al Performs at <a href="http://www.ilovegumbas.com/" target="_blank">Gumba's Italian restaurant</a> in Sunnyvale, CA. 6PM to 9 PM.</p>
+	<p style="margin-top: 50px;">
+	Al Fabrizio plays mandolin the first three Thursdays of every month 6-9PM at<br>
+	<a href="http://www.ilovegumbas.com/" target="_blank">Gombas' Italian Restaurant</a><br>
+	176 S. Murphy, Sunnyvale, CA<br>
+	(408) 737-8384
+	<!--The 1st, 2nd &amp; 3rd Thursdays of every month Al Performs at <a href="http://www.ilovegumbas.com/" target="_blank">Gumba's Italian restaurant</a> in Sunnyvale, CA. 6PM to 9 PM.</p> -->
 	</div>
         </div>
         <!--container--> 
