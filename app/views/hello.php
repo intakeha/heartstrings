@@ -824,7 +824,7 @@ Preloader
 								<textarea id="message" name="message" rows="7" cols="40"></textarea>
 							</div>
 							<div class="col-md-12">
-								<div align="center" class="g-recaptcha" data-sitekey="6LfQMAsUAAAAAA5vFOs6HQrHnEXYppo-j_LLsT0x"></div><br>
+								<div align="center" class="g-recaptcha" data-sitekey="6LdljCMTAAAAAAWS_uWqPIjyBnUzWmxSqcb9viJo"></div><br>
 							</div>
 							
 							<input type="submit" name="submit" class="button" id="submit_btn" value="Send Message">

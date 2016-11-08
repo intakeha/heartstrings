@@ -51,7 +51,7 @@ class ContactController extends BaseController {
 			//if (isset($_POST['g-recaptcha-response']) && $_POST['g-recaptcha-response']){
 			if (isset($data['recaptcha']) && $data['recaptcha']){
 
-				$secret = '6LfQMAsUAAAAAKKbyAkp6uM9u8Sjt1is95BcFsm8';
+				$secret = '6LdljCMTAAAAAHRfIUZkSKET3yWmNRUi4o8ITi6h';
 				$response = $data['recaptcha'];
 			
 				$url = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$response);
