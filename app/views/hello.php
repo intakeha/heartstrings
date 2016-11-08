@@ -51,7 +51,7 @@ Style Sheets
   ga('send', 'pageview');
 
 </script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 
@@ -795,16 +795,47 @@ Preloader
 					<div style="margin: 20px 0;">
 						For quotes, bookings and studio reservations, please use the form below to contact us.
 					</div>
+					<div class="contact-loader"></div>
 				</div>
 			<!--section_head_widget--> 
 			</div>
 			<!--row-->
 		
-		
+			
 			<div class="row">
 				<div class="col-xs-12">
 					<div id="contact-form-bx" class="contact-form-bx">
-						<div class="contact-loader"></div>
+						<form action="contact" id="contact-form" class="contact-form" name="cform" method="post">
+							<div class="col-md-6">  
+								<label for="name" id="name_label">Name</label>
+								<span class="name-missing">Please enter your name</span>  
+								<input id="name" type="text" value="" name="name" size="30"> 
+							</div>
+							
+							<div class="col-md-6">  
+								<label for="e-mail" id="email_label">Email</label>
+								<span class="email-missing">Please enter a valid e-mail</span> 
+								<input id="e-mail" type="text" value="" name="email" size="30">
+							</div>
+							
+							<div class="col-md-12">
+								<label for="message" id="phone_label">Message</label>
+								<span class="message-missing">Let us know how we can help</span>
+								<textarea id="message" name="message" rows="7" cols="40"></textarea>
+							</div>
+							<div class="col-md-12">
+								<div align="center" class="g-recaptcha" data-sitekey="6LfQMAsUAAAAAA5vFOs6HQrHnEXYppo-j_LLsT0x"></div><br>
+							</div>
+							
+							<input type="submit" name="submit" class="button" id="submit_btn" value="Send Message">
+						</form>
+					</div>
+				</div>
+			
+				<!--
+				<div class="col-xs-12">
+					<div id="contact-form-bx" class="contact-form-bx">
+						<div class="contact-loader">
 							<form action="contact" id="contact-form" class="contact-form" name="cform" method="post">
 								<div class="row">
 								    <div class="col-md-6">  
@@ -822,6 +853,9 @@ Preloader
 									<span class="message-missing">Let us know how we can help</span>
 									<textarea id="message" name="message" rows="7" cols="40"></textarea>
 								    </div>
+								    <div class="col-md-12">
+									<div class="g-recaptcha" data-sitekey="6LfQMAsUAAAAAA5vFOs6HQrHnEXYppo-j_LLsT0x"></div></br>
+								    </div>
 								    <div class="col-md-12 text-center"> 
 									<input type="submit" name="submit" class="button" id="submit_btn" value="Send Message">  
 								    </div>
@@ -830,12 +864,14 @@ Preloader
 						</div>
 					</div>
 				</div>
-			<!--column--> 
+				<!--column-->
+				
 			</div>
+			
 			<!--row-->
 
 		</div>
-          <!--container--> 
+		<!--container--> 
         </div>
         <!--contact_inner--> 
       </section>
