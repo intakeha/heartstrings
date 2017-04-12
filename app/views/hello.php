@@ -401,7 +401,7 @@ Preloader
 				<div class="col-xs-12 animatedParent animateLoop">
 					<h1 class="animated fadeInDown">Performing Live!</h1>
 					<h3 class="animated bounceInRight">San Francisco Bay Area</h3>
-					<a href="#schedule" class="btn btn-scroll animated bounceInUp">2016 Schedule</a>
+					<a href="#schedule" class="btn btn-scroll animated bounceInUp">2017 Schedule</a>
 				</div>
 			<!--column--> 
 			</div>
@@ -422,7 +422,7 @@ Preloader
             <div class="col-xs-12">
               <div class="section_head_widget">
                 <h2>Performances</h2>
-                <h5>2016 HeartStrings Schedule</h5>
+                <h5>2017 HeartStrings Schedule</h5>
               </div>
             </div>
             <!--section_head_widget--> 
@@ -443,18 +443,19 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>April 30-May 1</span>
+                  <span>May 6-7</span>
                 </div>
                 <div class="column_two"> <img src="images/wine-country-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Wine Country Festival </div>
                 <div class="column_four"> Livermore, CA </div>
                 <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.livermoredowntown.com/livermore-wine-country-downtown-street-fest/2016/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.livermoredowntown.com/livermore-wine-country-downtown-street-fest/2017/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
             
-            <div class="tour_row animatedParent  ">
+	<!--
+	   <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
                   <span>May 7-8</span>
@@ -471,17 +472,18 @@ Preloader
 	  <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>May 28-29</span>
+                  <span>May 27-28</span>
                 </div>
                 <div class="column_two"> <img src="images/strawberry.jpg" alt="" /> </div>
                 <div class="column_three"> Strawberry Festival </div>
                 <div class="column_four"> Arroyo Grande, CA</div>
                 <div class="column_five"> Outdoor Festival </div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.arroyograndevillage.org/strawberry_fest.shtml" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://arroyograndevillage.org/strawberryfestival" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
             
+	<!--
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -514,7 +516,7 @@ Preloader
 	<div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>June 11-12</span>
+                  <span>June 10-11</span>
                 </div>
                 <div class="column_two"> <img src="images/novato.jpg" alt="" /> </div>
                 <div class="column_three"> Art and Wine Festival</div>
@@ -540,6 +542,7 @@ Preloader
             </div>
           <!--tour row-->
 
+	<!--
 	<div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
@@ -557,13 +560,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>July 16-17</span>
+                  <span>July 15-16</span>
                 </div>
                 <div class="column_two"> <img src="images/summerfest.jpg" alt="" /> </div>
                 <div class="column_three"> Menlo Summerfest</div>
                 <div class="column_four"> Menlo Park, CA </div>
                 <div class="column_five"> Outdoor Festival </div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://pacificfinearts.com/2016-show-schedule/menlo-summerfest/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://summerfest.miramarevents.com/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
@@ -571,13 +574,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>July 30-31</span>
+                  <span>July 29-30</span>
                 </div>
                 <div class="column_two"> <img src="images/wine-faire.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Faire </div>
                 <div class="column_four"> Alameda, CA </div>
                 <div class="column_five"> Outdoor Festival </div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.shopparkstreet.com/artwine.html" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://downtownalameda.com/Art-Wine-Faire" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
@@ -585,13 +588,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 6-7</span>
+                  <span>August 5-6</span>
                 </div>
                 <div class="column_two"> <img src="images/fremont-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Festival of the Arts </div>
                 <div class="column_four"> Fremont, CA </div>
                 <div class="column_five"> Outdoor Festival </div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.fremontfestival.net/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://fremontfestival.net/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row-->
@@ -599,7 +602,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 13</span>
+                  <span>August 12</span>
                 </div>
                 <div class="column_two"> <img src="images/benicia.jpg" alt="" /> </div>
                 <div class="column_three"> Benicia Peddler's Fair </div>
@@ -613,13 +616,13 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>August 27-28</span>
+                  <span>August 26-27</span>
                 </div>
                 <div class="column_two"> <img src="images/italian-family-festa.jpg" alt="" /> </div>
                 <div class="column_three"> Family Festa Italiana </div>
                 <div class="column_four"> San Jose, CA </div>
                 <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://www.italianfamilyfestasj.org/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="https://www.italianfamilyfestasj.org/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row--> 
@@ -627,7 +630,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>September 3-4</span>
+                  <span>September 2-3</span>
                 </div>
                 <div class="column_two"> <img src="images/millbrae-art-wine-festival.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Festival </div>
@@ -641,7 +644,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>September 10-11</span>
+                  <span>September 9-10</span>
                 </div>
                 <div class="column_two"> <img src="images/mountain-view-art-wine.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Festival</div>
@@ -670,7 +673,7 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>September 17-18</span>
+                  <span>September 16-17</span>
                 </div>
                 <div class="column_two"> <img src="images/lafayette-art-wine.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Festival</div>
@@ -711,7 +714,8 @@ Preloader
             </div>
             <!--tour row--> 
 
-            <div class="tour_row animatedParent  ">
+            <!--
+	    <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
                   <span>October 2</span>
@@ -728,18 +732,19 @@ Preloader
             <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
-                  <span>October 8-9</span>
+                  <span>October 7-8</span>
                 </div>
                 <div class="column_two"> <img src="images/san-carlos-art-faire.jpg" alt="" /> </div>
                 <div class="column_three"> Art &amp; Wine Faire</div>
                 <div class="column_four"> San Carlos, CA </div>
                 <div class="column_five"> Outdoor Festival</div>
-                <div class="column_six"> <a class="btn btn_buy_ticket" href="http://pacificfinearts.com/2016-show-schedule/san-carlos-art-wine-faire/" target="_blank">Event Info</a> </div>
+                <div class="column_six"> <a class="btn btn_buy_ticket" href="https://sancarlosartandwinefaire.com/" target="_blank">Event Info</a> </div>
               </div>
             </div>
             <!--tour row--> 
 
-            <div class="tour_row animatedParent  ">
+            <!--
+	    <div class="tour_row animatedParent  ">
               <div class="animated fadeInDownShort">
                 <div class="column_one">
                   <span>October 15-16</span>
@@ -769,8 +774,8 @@ Preloader
             <!--tour row--> 
 	
 	<p style="margin-top: 50px;">
-	Al Fabrizio plays mandolin the first three Thursdays of every month 6-9PM at<br>
-	<a href="http://www.ilovegumbas.com/" target="_blank">Gombas' Italian Restaurant</a><br>
+	EVERY THURSDAY 5:30 - 8:30 pm<br>
+	Al Fabrizio performs at <a href="http://www.ilovegumbas.com/" target="_blank">Gombas' Italian Restaurant</a><br>
 	176 S. Murphy, Sunnyvale, CA<br>
 	(408) 737-8384
 	<!--The 1st, 2nd &amp; 3rd Thursdays of every month Al Performs at <a href="http://www.ilovegumbas.com/" target="_blank">Gumba's Italian restaurant</a> in Sunnyvale, CA. 6PM to 9 PM.</p> -->
@@ -3861,7 +3866,7 @@ Preloader
 				Mountain View, CA 94043<br>
 			</div>
 			<div class="col-sm-4 col-md-4 copyrights">
-				<div>&copy; 2016 HeartStrings Music LLC.</div>
+				<div>&copy; 2017 HeartStrings Music LLC.</div>
 				<div>Website by <a href="http://woorus.com" target="_blank">Woorus</a></div>
 			</div>
 			<div class="col-sm-4 col-md-4 copyrights">
